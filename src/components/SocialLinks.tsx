@@ -1,12 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FaWhatsapp, FaLinkedin, FaEnvelope, FaPhone, FaComments } from 'react-icons/fa';
+import { FaWhatsapp, FaLinkedin, FaEnvelope, FaPhone, FaComments, FaGithub } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const socialLinks = [
   { icon: FaWhatsapp, label: 'WhatsApp', href: 'https://wa.me/+919569602213' },
   { icon: FaLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/igurisandhu' },
+  { icon: FaGithub, label: 'GitHub', href: 'https://github.com/igurisandhu' },
   { icon: FaEnvelope, label: 'Email', href: 'mailto:igurisandhu@yahoo.com' },
   { icon: FaPhone, label: 'Phone', href: 'tel:+919569602213' },
 ];
