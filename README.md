@@ -6,6 +6,15 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9EF7&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer+with+4%2B+years+experience;Specialized+in+JavaScript%2C+TypeScript%2C+React;Building+responsive+and+modern+web+applications;Passionate+about+performance+and+security" alt="Typing SVG" />
 </div>
 
+## 🌐 Portfolio Website
+
+<div align="center">
+  <h3>✨ Check out my portfolio ✨</h3>
+  <a href="https://iguri.netlify.app/">
+    <img src="https://img.shields.io/badge/iguri.netlify.app-2D9EF7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=1a1a1a&color=2D9EF7" alt="Portfolio Website" />
+  </a>
+</div>
+
 ## 🛠️ Tech Stack
 
 <div align="center">
