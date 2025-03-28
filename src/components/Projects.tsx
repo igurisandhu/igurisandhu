@@ -21,7 +21,7 @@ const projects = [
     description: 'Built an AI-powered front desk management system that automates guest interactions, handles reservations, and provides intelligent responses to common queries.',
     technologies: ['React', 'Node.js', 'MongoDB', 'OpenAI API', 'WebSocket'],
     image: 'https://cdn.prod.website-files.com/646676436cb9dc8974098e06/67ba167873d2b1b6e83c3f6f_svgviewer-png-output.png',
-    link: 'https://myfrontdeskai.com',
+    link: 'https://www.myaifrontdesk.com/',
     company: 'FrontDesk AI',
     role: 'Full Stack Developer',
     imageAlt: 'FrontDesk AI Platform Interface',
