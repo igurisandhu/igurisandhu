@@ -9,7 +9,7 @@ const experiences = [
     company: 'QueryBoat.ai',
     period: 'Oct 2025 - Present',
     description: 'Founded QueryBoat.ai, an AI-powered customer service platform that revolutionizes business communications. Built a comprehensive solution featuring AI chatbots, voice calling (inbound & outbound), appointment scheduling, and order management. Developed scalable backend architecture handling 10K+ calls daily with 99% uptime. Implemented real-time WebSocket connections, OpenAI integrations, and call transcription services. Created an intuitive dashboard for businesses to manage conversations, track analytics, and configure AI behavior. Architected pay-as-you-go pricing model with lifetime minutes and bulk discounts.',
-    technologies: ['Node.js', 'React', 'TypeScript', 'OpenAI API', 'WebSocket', 'MongoDB', 'Twilio', 'Next.js', 'Redis'],
+    technologies: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'OpenAI API', 'WebSocket', 'MongoDB', 'Twilio', 'Redis'],
     gradient: 'from-purple-500 to-pink-500',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
