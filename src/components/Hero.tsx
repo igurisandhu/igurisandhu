@@ -67,14 +67,14 @@ const Hero = () => {
                   </span>
                 </h1>
                 <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300">
-                  MERN Stack Developer
+                  Founder & AI Engineer
                 </p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={0.2}>
               <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-xl">
-                Dedicated Full Stack Engineer with 4+ years of experience in designing, developing, and managing web applications. Proficient in JavaScript, TypeScript, MongoDB, ExpressJS, ReactJS, NextJS, Aangular and Node.js. Adept at building APIs, managing databases, and ensuring smooth application performance. Skilled team player with strong problem-solving abilities and a track record of meeting deadlines.
+                Building <a href="https://queryboat.ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">QueryBoat.ai</a> - an AI-powered customer service platform that handles calls, chats, appointments, and orders 24/7. Previously a Full Stack Engineer with 4+ years of experience building scalable web applications for companies like McDonald's India.
               </p>
             </AnimateOnScroll>
 

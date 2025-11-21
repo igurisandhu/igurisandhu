@@ -5,9 +5,22 @@ import AnimateOnScroll from './AnimateOnScroll';
 
 const experiences = [
   {
+    title: 'Founder & AI Engineer',
+    company: 'QueryBoat.ai',
+    period: 'Oct 2025 - Present',
+    description: 'Founded QueryBoat.ai, an AI-powered customer service platform that revolutionizes business communications. Built a comprehensive solution featuring AI chatbots, voice calling (inbound & outbound), appointment scheduling, and order management. Developed scalable backend architecture handling 10K+ calls daily with 99% uptime. Implemented real-time WebSocket connections, OpenAI integrations, and call transcription services. Created an intuitive dashboard for businesses to manage conversations, track analytics, and configure AI behavior. Architected pay-as-you-go pricing model with lifetime minutes and bulk discounts.',
+    technologies: ['Node.js', 'React', 'TypeScript', 'OpenAI API', 'WebSocket', 'MongoDB', 'Twilio', 'Next.js', 'Redis'],
+    gradient: 'from-purple-500 to-pink-500',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    ),
+  },
+  {
     title: 'Software Engineer',
     company: 'Jungleworks Pvt Ltd',
-    period: 'Jun 2023 - Present',
+    period: 'Jun 2023 - Oct 2025',
     description: 'Developed and optimized Node.js APIs and dynamic Angular interfaces and features for SaaS clients, including McDonaldsIndia.com, Peddler.express, Litta.io, Dubz.com, and TryCaterWheels.com. Designed and managed databases using MongoDB and MySQL, ensuring high performance and scalability. Delivered customized solutions, collaborating with product teams and clients to meet diverse business requirements. Diagnosed and resolved critical issues, optimizing platform performance and reliability. Utilized Git and CI/CD pipelines for version control and automated deployments. Developed Product features such as Reminder Scheduling, Real Time Agent Tracking, Microsoft Azure Integrations, and Leaflet Map Integrations.',
     technologies: ['Node.js', 'Angular', 'MongoDB', 'MySQL', 'Git', 'CI/CD', 'Azure', 'Leaflet Maps'],
     gradient: 'from-blue-500 to-purple-500',

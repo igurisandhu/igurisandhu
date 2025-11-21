@@ -10,7 +10,7 @@ const awards = [
     issuedBy: 'Jungleworks Pvt Ltd',
     date: 'Apr 2024',
     associatedWith: 'JungleWorks',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQEADxxl9XNk_g/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1719493821142?e=1743573600&v=beta&t=ncseSp7pLTSedYf1te_oIcRQsZ8sFzTef4j1TP0uVok',
+    image: '/images/employee_of_quarter.jpeg',
     gradient: 'from-blue-500 to-purple-500',
   },
   {
@@ -18,7 +18,7 @@ const awards = [
     issuedBy: 'Jungleworks Tookan Team',
     date: 'Jul 2023',
     associatedWith: 'JungleWorks',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQF2Jj9Hi3uqyw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1706546544412?e=1743674400&v=beta&t=79kk9Hg0YAm2NWQ1_pHG719GCVvebqJt9OwxRb0WAmA',
+    image: '/images/star_performer_of_the_month.jpeg',
     gradient: 'from-purple-500 to-pink-500',
   }
 ];

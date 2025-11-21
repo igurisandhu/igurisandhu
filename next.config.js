@@ -5,6 +5,14 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'queryboat.ai',
+      },
+      {
+        protocol: 'https',
+        hostname: 'mcdindia.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'static.wixstatic.com',
       },
       {

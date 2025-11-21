@@ -26,16 +26,24 @@ const About = () => {
               className="space-y-3 sm:space-y-4"
             >
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
-                I am a passionate Full Stack Developer with 4 years of experience in building modern web applications. 
-                My journey in software development has been driven by a constant desire to learn and create innovative solutions.
+                I am an entrepreneur and AI engineer currently building <a href="https://queryboat.ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">QueryBoat.ai</a>, an AI-powered customer service platform that revolutionizes how businesses handle customer interactions. Our platform automates calls, chats, appointments, and orders 24/7, helping businesses never miss a customer opportunity.
               </p>
               
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
-                I specialize in developing scalable and maintainable applications using cutting-edge technologies. 
-                My expertise includes both frontend and backend development, with a strong focus on creating seamless user experiences.
+                With 4+ years of full-stack development experience, I've built scalable applications for major clients including McDonald's India. Now, I'm channeling that expertise into creating innovative AI solutions that solve real-world business problems.
               </p>
               
               <div className="flex flex-wrap gap-3 sm:gap-4 mt-4 sm:mt-6">
+                <motion.a
+                  href="https://queryboat.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-4 sm:px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm sm:text-base rounded-lg hover:from-blue-600 hover:to-purple-600 transition-colors"
+                >
+                  Visit QueryBoat.ai
+                </motion.a>
                 <motion.a
                   href="#skills"
                   whileHover={{ scale: 1.05 }}
@@ -55,20 +63,20 @@ const About = () => {
               className="grid grid-cols-2 gap-3 sm:gap-4"
             >
               <div className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">Founder</h3>
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">QueryBoat.ai</p>
+              </div>
+              <div className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">24/7</h3>
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">AI Availability</p>
+              </div>
+              <div className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
                 <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">4+</h3>
                 <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">Years Experience</p>
               </div>
               <div className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
-                <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">20+</h3>
-                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">Projects Completed</p>
-              </div>
-              <div className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
-                <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">15+</h3>
-                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">Technologies</p>
-              </div>
-              <div className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
-                <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">15+</h3>
-                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">Happy Clients</p>
+                <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 dark:text-white">500+</h3>
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">Active Users</p>
               </div>
             </motion.div>
           </div>
