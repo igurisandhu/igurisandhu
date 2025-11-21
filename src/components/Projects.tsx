@@ -9,7 +9,7 @@ const projects = [
   {
     title: 'QueryBoat.ai',
     description: 'Founded and built an AI-powered customer service platform that automates business communications 24/7. Features include AI chatbot, voice calling (inbound & outbound), appointment scheduling, and order management. Handles 10K+ calls daily with 99% uptime and serves 500+ active businesses.',
-    technologies: ['Next.js', 'Node.js', 'TypeScript', 'OpenAI API', 'MongoDB', 'WebSocket', 'Twilio', 'Redis'],
+    technologies: ['Next.js', 'Python', 'FastAPI', 'TypeScript', 'OpenAI API', 'MongoDB', 'WebSocket', 'Twilio', 'Redis'],
     image: '/images/queryboat_ai.png',
     link: 'https://queryboat.ai',
     company: 'QueryBoat.ai',
