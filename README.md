@@ -3,7 +3,7 @@
 ## 🚀 Software Developer & Tech Enthusiast
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9EF7&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer+with+4%2B+years+experience;Specialized+in+JavaScript%2C+TypeScript%2C+React;Building+responsive+and+modern+web+applications;Passionate+about+performance+and+security" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9EF7&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer+with+5%2B+years+experience;Specialized+in+JavaScript%2C+TypeScript%2C+React;Building+responsive+and+modern+web+applications;Passionate+about+performance+and+security" alt="Typing SVG" />
 </div>
 
 ## 🌐 Portfolio Website
@@ -40,12 +40,16 @@
 
 ## 🌟 Featured Projects
 
+- 💳 [Betalia](https://betalia.no) - Full Stack Developer. Built a cloud-based POS platform for restaurants and hotels with Verifone payment integrations and order management.
+- 🏠 [EpDeals](https://epdeals.com) - Full Stack Developer. Built a real estate marketplace for buying, selling, and renting properties across India with free listings, advanced search, and PWA support.
+- 🔗 [LinkPre](https://linkpre.com) - Full Stack Developer. Built a digital presence platform for creators and businesses to showcase portfolios, products, and social profiles.
+- 🏥 [Nihal Healthcare](https://nihalhealthcare.com) - Full Stack Developer. Developed corporate website for a medical device manufacturer specializing in CE-certified sterile syringes and hypodermic needles.
 - 📦 [Tookan](https://www.tookanapp.com) - Full Stack Developer at Jungleworks Pvt Ltd. Built delivery and pickup management platform with real-time tracking and task assignment.
-- 🔥 [McDonalds India](https://McDonaldsIndia.com) - Lead Developer at Jungleworks Pvt Ltd. Developed Node.js APIs and Angular interfaces with real-time agent tracking and reminder scheduling.
+- � [McDonalds India](https://McDonaldsIndia.com) - Lead Developer at Jungleworks Pvt Ltd. Developed Node.js APIs and Angular interfaces with real-time agent tracking and reminder scheduling.
 - 🚀 [FrontDesk AI](https://www.myaifrontdesk.com) - Full Stack Developer. Built AI-powered front desk management system with automated guest interactions and reservations.
 - 💡 [Ptrack Tech](https://live-dashboard.ptracktech.com) - Full Stack Developer. Developed delivery management platform with real-time tracking and workforce management.
 - 🍽️ [Caterwheels](https://www.trycaterwheels.com/) - Full Stack Developer. Built NYC food catering delivery platform with real-time order tracking and restaurant integration.
-- 🚚 [Peddler Express](https://Peddler.express) - Lead Developer at Jungleworks Pvt Ltd. Created delivery management system with automated scheduling and route optimization.
+- �🚚 [Peddler Express](https://Peddler.express) - Lead Developer at Jungleworks Pvt Ltd. Created delivery management system with automated scheduling and route optimization.
 - 💃 [PBT Dance](https://www.pbt.dance) - Frontend Developer at Inzint Private Limited. Developed modern dance platform with dynamic content management.
 
 ## 📫 Connect With Me
