@@ -11,18 +11,16 @@ import {
   SiMysql,
   SiTypescript,
   SiJavascript,
-  SiHtml5,
-  SiCss3,
-  SiTailwindcss,
   SiGit,
-  SiDocker,
   SiAmazon,
-  SiFirebase,
-  SiRedux,
-  SiJest,
-  SiWebpack,
-  SiVuedotjs,
+  SiPython,
+  SiFastapi,
+  SiTailwindcss,
+  SiCss3,
+  SiHtml5,
+  SiDocker,
 } from 'react-icons/si';
+import { FaRobot } from 'react-icons/fa';
 
 type AnimationType = 'spin' | 'morph' | 'bounce-rotate' | 'wiggle';
 
@@ -37,22 +35,20 @@ const skills: Skill[] = [
   { name: 'React', icon: SiReact, color: 'text-blue-500', animation: 'spin' },
   { name: 'Next.js', icon: SiNextdotjs, color: 'text-black dark:text-white', animation: 'morph' },
   { name: 'Angular', icon: SiAngular, color: 'text-red-500', animation: 'spin' },
-  { name: 'Vue.js', icon: SiVuedotjs, color: 'text-green-500', animation: 'spin' },
   { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-600', animation: 'bounce-rotate' },
   { name: 'JavaScript', icon: SiJavascript, color: 'text-yellow-400', animation: 'bounce-rotate' },
   { name: 'Node.js', icon: SiNodedotjs, color: 'text-green-500', animation: 'wiggle' },
+  { name: 'Python', icon: SiPython, color: 'text-yellow-500', animation: 'spin' },
+  { name: 'FastAPI', icon: SiFastapi, color: 'text-teal-500', animation: 'bounce-rotate' },
   { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500', animation: 'bounce-rotate' },
   { name: 'MySQL', icon: SiMysql, color: 'text-blue-500', animation: 'wiggle' },
-  { name: 'AWS', icon: SiAmazon, color: 'text-yellow-500', animation: 'bounce-rotate' },
-  { name: 'Firebase', icon: SiFirebase, color: 'text-orange-500', animation: 'morph' },
-  { name: 'Docker', icon: SiDocker, color: 'text-blue-500', animation: 'wiggle' },
+  { name: 'AWS EC2', icon: SiAmazon, color: 'text-yellow-500', animation: 'bounce-rotate' },
+    { name: 'Docker', icon: SiDocker, color: 'text-blue-500', animation: 'wiggle' },
   { name: 'Git', icon: SiGit, color: 'text-red-500', animation: 'bounce-rotate' },
+  { name: 'AI Agents', icon: FaRobot, color: 'text-purple-500', animation: 'wiggle' },
   { name: 'HTML5', icon: SiHtml5, color: 'text-orange-500', animation: 'morph' },
   { name: 'CSS3', icon: SiCss3, color: 'text-blue-500', animation: 'morph' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-500', animation: 'spin' },
-  { name: 'Redux', icon: SiRedux, color: 'text-purple-500', animation: 'spin' },
-  { name: 'Jest', icon: SiJest, color: 'text-red-500', animation: 'bounce-rotate' },
-  { name: 'Webpack', icon: SiWebpack, color: 'text-blue-500', animation: 'spin' },
 ];
 
 const Skills = () => {

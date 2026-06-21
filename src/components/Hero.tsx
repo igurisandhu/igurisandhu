@@ -4,9 +4,13 @@ import AnimateOnScroll from './AnimateOnScroll';
 const Hero = () => {
   const skills = [
     { name: 'JavaScript', color: 'bg-yellow-500' },
-    { name: 'Node.js', color: 'bg-green-500' },
-    { name: 'React.js', color: 'bg-blue-500' },
     { name: 'TypeScript', color: 'bg-blue-600' },
+    { name: 'React', color: 'bg-blue-500' },
+    { name: 'Next.js', color: 'bg-black' },
+    { name: 'Node.js', color: 'bg-green-500' },
+    { name: 'Python', color: 'bg-yellow-600' },
+    { name: 'Angular', color: 'bg-red-500' },
+    { name: 'AWS', color: 'bg-orange-500' },
     { name: 'MongoDB', color: 'bg-green-600' },
     { name: 'MySQL', color: 'bg-blue-400' },
   ];
@@ -67,14 +71,14 @@ const Hero = () => {
                   </span>
                 </h1>
                 <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300">
-                  Founder & AI Engineer
+                  Full-Stack Software Engineer
                 </p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={0.2}>
               <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-xl">
-                Building <a href="https://queryboat.ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">QueryBoat.ai</a> - an AI-powered customer service platform that handles calls, chats, appointments, and orders 24/7. Previously a Full Stack Engineer with 4+ years of experience building scalable web applications for companies like McDonald's India.
+                Full-Stack Software Engineer with 5+ years of experience building SaaS platforms, AI-powered products, real-time systems, and healthcare applications. Specialized in Node.js, TypeScript, React, Next.js, and cloud infrastructure. Delivered solutions for startups and enterprise clients serving thousands of users.
               </p>
             </AnimateOnScroll>
 

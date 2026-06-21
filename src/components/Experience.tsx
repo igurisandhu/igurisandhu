@@ -5,11 +5,11 @@ import AnimateOnScroll from './AnimateOnScroll';
 
 const experiences = [
   {
-    title: 'Founder & AI Engineer',
-    company: 'QueryBoat.ai',
-    period: 'Oct 2025 - Present',
-    description: 'Founded QueryBoat.ai, an AI-powered customer service platform that revolutionizes business communications. Built a comprehensive solution featuring AI chatbots, voice calling (inbound & outbound), appointment scheduling, and order management. Developed scalable backend architecture handling 10K+ calls daily with 99% uptime. Implemented real-time WebSocket connections, OpenAI integrations, and call transcription services. Created an intuitive dashboard for businesses to manage conversations, track analytics, and configure AI behavior. Architected pay-as-you-go pricing model with lifetime minutes and bulk discounts.',
-    technologies: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'OpenAI API', 'WebSocket', 'MongoDB', 'Twilio', 'Redis'],
+    title: 'Freelance Software Engineer',
+    company: 'Freelance',
+    period: 'Nov 2025 - Present',
+    description: 'Designed and developed scalable SaaS, healthcare, POS, and AI-powered applications using Next.js, Node.js, and FastAPI (Python), ensuring high performance, reliability, and 99.9% uptime. Key projects include Epdeals.com, Betalia.no (cloud POS platform with Verifone integrations), NihalHealthcare.com, QueryBoat.ai (AI customer service), LinkPre.com (creator profiles), and LaviorWellness.com.',
+    technologies: ['Next.js', 'Node.js', 'FastAPI', 'Python', 'TypeScript', 'React', 'MongoDB', 'AWS'],
     gradient: 'from-purple-500 to-pink-500',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -19,10 +19,10 @@ const experiences = [
   },
   {
     title: 'Software Engineer',
-    company: 'Jungleworks Pvt Ltd',
-    period: 'Jun 2023 - Oct 2025',
-    description: 'Developed and optimized Node.js APIs and dynamic Angular interfaces and features for SaaS clients, including McDonaldsIndia.com, Peddler.express, Litta.io, Dubz.com, and TryCaterWheels.com. Designed and managed databases using MongoDB and MySQL, ensuring high performance and scalability. Delivered customized solutions, collaborating with product teams and clients to meet diverse business requirements. Diagnosed and resolved critical issues, optimizing platform performance and reliability. Utilized Git and CI/CD pipelines for version control and automated deployments. Developed Product features such as Reminder Scheduling, Real Time Agent Tracking, Microsoft Azure Integrations, and Leaflet Map Integrations.',
-    technologies: ['Node.js', 'Angular', 'MongoDB', 'MySQL', 'Git', 'CI/CD', 'Azure', 'Leaflet Maps'],
+    company: 'Jungleworks',
+    period: 'Jun 2023 - Nov 2025',
+    description: 'Worked as a Full-Stack Engineer on Token, a last-mile delivery management platform enabling order management, dispatching, driver tracking, and delivery fulfillment. Led the migration of a large-scale frontend application from Angular 5 to Angular 18 Standalone, improving performance, maintainability, and developer productivity. Implemented AWS CloudFront CDN for Angular application deployments, reducing page load times by 70%. Enhanced map rendering performance by implementing Leaflet marker clustering, layer grouping, and advanced map management features. Built a custom shell-based deployment pipeline, reducing deployment time by 90% and deployment failures by 95%.',
+    technologies: ['Angular', 'Node.js', 'TypeScript', 'MongoDB', 'MySQL', 'AWS', 'Azure', 'Leaflet Maps'],
     gradient: 'from-blue-500 to-purple-500',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -33,9 +33,9 @@ const experiences = [
   {
     title: 'Associate Software Engineer',
     company: 'Inzint Private Limited',
-    period: 'Jul 2022 - Apr 2023',
-    description: 'Developed dynamic web applications using React and TypeScript for frontend development. Built and optimized backend services with Node.js and TypeScript, ensuring high-performance APIs. Managed and designed databases with MongoDB, ensuring efficient data storage and retrieval. Contributed to the development of pbt.dance, enhancing user experience and overall platform functionality. Collaborated with cross-functional teams to deliver timely and high-quality software solutions. Wrote clean, maintainable code, following best practices and ensuring smooth deployment cycles.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'REST APIs'],
+    period: 'Jul 2022 - Mar 2023',
+    description: 'Worked as a Full-Stack Engineer on Progressing Ballet Technique (PBT), a global dance training and certification platform serving teachers, studios, and dancers worldwide. Developed backend services for user management, video streaming, and learning workflows using Node.js. Implemented progress tracking, subscription billing, and Stripe payment integrations.',
+    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'REST APIs', 'Stripe'],
     gradient: 'from-purple-500 to-pink-500',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -44,11 +44,11 @@ const experiences = [
     ),
   },
   {
-    title: 'Associate Software Developer',
+    title: 'Software Developer',
     company: 'Quadtrics Solutions',
     period: 'Apr 2021 - Jul 2022',
-    description: 'Designed and implemented the backend with Node.js, ensuring scalable and reliable application performance. Integrated WebSockets for real-time updates and chats, enhancing collaboration and coordination for construction teams. Managed data storage using MongoDB, ensuring secure and efficient handling of project data. Developed an intuitive user interface with Vanilla JavaScript, improving user satisfaction and operational efficiency.',
-    technologies: ['Node.js', 'MongoDB', 'WebSocket', 'JavaScript', 'Express.js'],
+    description: 'Designed and implemented scalable backend services using Node.js, ensuring reliable application performance. Integrated WebSockets for real-time updates, improving collaboration and coordination for construction teams.',
+    technologies: ['Node.js', 'MongoDB', 'WebSocket', 'JavaScript'],
     gradient: 'from-pink-500 to-red-500',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -147,4 +147,4 @@ const Experience = () => {
   );
 };
 
-export default Experience; 
+export default Experience;

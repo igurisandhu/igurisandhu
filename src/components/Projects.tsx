@@ -7,13 +7,33 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'Betalia.no',
+    description: 'Developed a cloud-based POS platform for restaurants and hotels, streamlining order management and payment processing. Engineered scalable Next.js and Node.js applications with Verifone integrations, ensuring secure payment workflows and high system reliability.',
+    technologies: ['Next.js', 'Node.js', 'TypeScript', 'MongoDB', 'Verifone'],
+    image: '/images/betalia.png',
+    link: 'https://betalia.no',
+    company: 'Freelance',
+    role: 'Full-Stack Engineer',
+    imageAlt: 'Betalia Cloud POS Platform',
+  },
+  {
+    title: 'LinkPre.com',
+    description: 'Built a digital presence platform for creators, professionals, and businesses to showcase portfolios, products, achievements, and social profiles through a unified public profile. Engineered scalable frontend and backend features including analytics, profile customization, media galleries, and booking integrations using Next.js and Node.js.',
+    technologies: ['Next.js', 'Node.js', 'TypeScript', 'MongoDB', 'REST APIs'],
+    image: '/images/linkpre.png',
+    link: 'https://linkpre.com',
+    company: 'Freelance',
+    role: 'Full-Stack Engineer',
+    imageAlt: 'LinkPre Digital Presence Platform',
+  },
+  {
     title: 'QueryBoat.ai',
-    description: 'Founded and built an AI-powered customer service platform that automates business communications 24/7. Features include AI chatbot, voice calling (inbound & outbound), appointment scheduling, and order management. Handles 10K+ calls daily with 99% uptime and serves 500+ active businesses.',
+    description: 'Built an AI-powered customer service platform that automates business communications 24/7. Features include AI chatbot, voice calling (inbound & outbound), appointment scheduling, and order management. Handles 10K+ calls daily with 99% uptime.',
     technologies: ['Next.js', 'Python', 'FastAPI', 'TypeScript', 'OpenAI API', 'MongoDB', 'WebSocket', 'Twilio', 'Redis'],
     image: '/images/queryboat_ai.png',
     link: 'https://queryboat.ai',
-    company: 'QueryBoat.ai',
-    role: 'Founder & AI Engineer',
+    company: 'Freelance',
+    role: 'Full-Stack Engineer',
     imageAlt: 'QueryBoat AI Customer Service Platform',
   },
   {
@@ -58,12 +78,12 @@ const projects = [
   },
   {
     title: 'PBT Dance',
-    description: 'Developed a modern dance platform with dynamic content management, user authentication, and interactive features.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'REST APIs'],
+    description: 'Worked on Progressing Ballet Technique (PBT), a global dance training and certification platform serving teachers, studios, and dancers worldwide. Developed backend services for user management, video streaming, and learning workflows. Implemented progress tracking, subscription billing, and Stripe payment integrations.',
+    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'REST APIs', 'Stripe'],
     image: '/images/pbt_dance.png',
     link: 'https://www.pbt.dance',
     company: 'Inzint',
-    role: 'Frontend Developer',
+    role: 'Full-Stack Engineer',
     imageAlt: 'PBT Dance Platform Interface',
   }
 ];
@@ -99,7 +119,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            A showcase of my work demonstrating expertise in full-stack development, real-time applications, and scalable solutions.
+            A showcase of SaaS, AI-powered, and healthcare applications built with modern full-stack technologies.
           </p>
         </motion.div>
         
@@ -215,4 +235,4 @@ const Projects = () => {
   );
 };
 
-export default Projects; 
+export default Projects;
